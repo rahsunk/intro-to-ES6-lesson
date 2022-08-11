@@ -98,7 +98,12 @@ let cubedNumbers=numbers.map((number,index)=>{
 console.log(cubedNumbers)
 
 
-// TBD
+const nums=[2,4,6,8]
+nums.forEach((num,index)=>{
+    let squaredNum=num**2
+    console.log(`The number at index ${index} squared is ${squaredNum}`)
+})
+
 
 
 let staff=[
